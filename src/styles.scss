@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+$font-xl: 5rem;
+$font-lg: 4rem;
+$font-md: 1.5rem;
+$font-sm: 1rem;
+$font-xs: .5rem;
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
+    font-family: 'Lato', sans-serif;
+}
+
+.container-fluid{
+    padding: 0 7vw;
+}
+
+.hero-image-container{
+    height: 90vh;
+    position: relative;
+
+    img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .hero-text{
+        position: absolute;
+        top: 10%;
+        right: 4%;
+        width: 35%;
+        h1, h2{
+            text-align: end;
+            color: white;
+        }
+
+        h1{
+            font-size: clamp(2em, 3vw, 3vw);
+        }
+    }
+
+
+}
+
+.home-gallery-container{
+
+    .grid-col{
+        max-height: 100vh;
+
+    }
+    
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .grid-section{
+        height: 50vh;
+    }
+
+    .grid-text-container{
+        position: relative;
+        .grid-text{
+            position: absolute;
+            bottom: 2%;
+            left: 3%;
+            color: white;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+    }
+
+    .grid-text-container-tall{
+        position: relative;
+        .grid-text{
+            position: absolute;
+            bottom: 1%;
+            left: 3%;
+            color: white;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+    }
+
+}
+
+

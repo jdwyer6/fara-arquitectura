@@ -1,1 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+html, body {
+  overflow-x: hidden;
+}
 
+body {
+  position: relative;
+  font-family: "Lato", sans-serif;
+}
+
+.container-fluid {
+  padding: 0 7vw;
+}
+
+.hero-image-container {
+  height: 90vh;
+  position: relative;
+}
+.hero-image-container img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.hero-image-container .hero-text {
+  position: absolute;
+  top: 10%;
+  right: 4%;
+  width: 35%;
+}
+.hero-image-container .hero-text h1, .hero-image-container .hero-text h2 {
+  text-align: end;
+  color: white;
+}
+.hero-image-container .hero-text h1 {
+  font-size: clamp(2em, 3vw, 3vw);
+}
+
+.home-gallery-container .grid-col {
+  max-height: 100vh;
+}
+.home-gallery-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.home-gallery-container .grid-section {
+  height: 50vh;
+}
+.home-gallery-container .grid-text-container {
+  position: relative;
+}
+.home-gallery-container .grid-text-container .grid-text {
+  position: absolute;
+  bottom: 2%;
+  left: 3%;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.home-gallery-container .grid-text-container-tall {
+  position: relative;
+}
+.home-gallery-container .grid-text-container-tall .grid-text {
+  position: absolute;
+  bottom: 1%;
+  left: 3%;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=App.css.map */
