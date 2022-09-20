@@ -6,6 +6,10 @@ $font-md: 1.5rem;
 $font-sm: 1rem;
 $font-xs: .5rem;
 
+$gray: rgb(231, 222, 219);
+$gray-dark: rgb(39, 41, 41);
+$gray-md: rgb(159, 162, 163);
+
 html, body {
     overflow-x: hidden;
 }
@@ -51,7 +55,7 @@ body {
 
     .grid-col{
         max-height: 100vh;
-
+        
     }
     
     img{
@@ -62,6 +66,24 @@ body {
 
     .grid-section{
         height: 50vh;
+        
+        transition: all .5s;
+        &:hover{
+            filter: saturate(2);
+            filter: contrast(1.1);
+            cursor: pointer;
+            // transform: scale(1.01);
+        }
+
+        &-tall{
+            transition: all .5s;
+            &:hover{
+                filter: saturate(2);
+                filter: contrast(1.1);
+                cursor: pointer;
+                // transform: scale(1.01);
+            }
+        }
     }
 
     .grid-text-container{
@@ -72,7 +94,8 @@ body {
             left: 3%;
             color: white;
             font-size: 2rem;
-            font-weight: 600;
+            font-weight: 500;
+            text-shadow: 2px 2px 5px rgb(29, 29, 29);
         }
     }
 
@@ -84,10 +107,69 @@ body {
             left: 3%;
             color: white;
             font-size: 2rem;
-            font-weight: 600;
+            font-weight: 500;
+            text-shadow: 2px 2px 5px rgb(29, 29, 29);
         }
     }
 
+}
+
+.info-container{
+    // height: 75vh;
+    // overflow: hidden;
+    // background-color: $gray;
+
+
+    .info-wrapper{
+        position: relative;
+
+        .info-text-div{
+            width: 40%;
+            position: absolute;
+            top: 15%;
+            left: 0;
+            padding: 0 .75rem;
+            text-align: center;
+            
+            h1{
+                text-align: center;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.btn.btn-primary{
+    background-color: white;
+    color: black;
+    border: 1px solid $gray;
+    border-radius: 0px;
+    width: 300px;
+    margin: 3rem;
+
+    &:hover{
+        background-color: $gray-dark;
+        color: white;
+        border: 1px solid $gray-dark;
+    }
+}
+
+.nav-drawer{
+    list-style: none;
+    padding: 0;
+    li{
+        font-size: 2rem;
+
+        &:hover{
+            color: $gray-md;
+            cursor: pointer;
+        }
+    }
+}
+
+.hamburger-menu:hover{
+    cursor: pointer;
+    color: $gray-md;
 }
 
 

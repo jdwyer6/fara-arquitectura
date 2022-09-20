@@ -3,6 +3,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import  { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import logo from '../assets/images/logo.png';
+import { Link } from 'react-router-dom';
 
 
 
@@ -19,15 +20,30 @@ function Navigation() {
                 <Navbar.Brand href="#home">
                     <img src={logo} alt='logo' aria-details='logo' width='250px'/>
                 </Navbar.Brand>
-                <GiHamburgerMenu variant="primary" onClick={handleShow}>Launch</GiHamburgerMenu>
+                <GiHamburgerMenu className='hamburger-menu' variant="primary" onClick={handleShow}>Launch</GiHamburgerMenu>
 
                 <Offcanvas show={show} onHide={handleClose} placement='end'>
                     <Offcanvas.Header closeButton>
-                        <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+                        <Offcanvas.Title>EXPLORAR</Offcanvas.Title>
                     </Offcanvas.Header>
                     <Offcanvas.Body>
-                        Some text as placeholder. In real life you can have the
-                        elements you have chosen. Like, text, images, lists, etc.
+                        <ul className='nav-drawer'>
+                            <Link to='/' style={{textDecoration:'none', color: 'black'}}>
+                                <li>Home</li>
+                            </Link>
+                            <Link to='about' style={{textDecoration:'none', color: 'black'}}>
+                                <li>Acerca de</li>
+                            </Link>
+                            <Link to='services' style={{textDecoration:'none', color: 'black'}}>
+                                <li>Servicios</li>
+                            </Link>
+                            <Link to='gallery' style={{textDecoration:'none', color: 'black'}}>
+                                <li>Galería</li>
+                            </Link>
+                            <Link to='contact' style={{textDecoration:'none', color: 'black'}}>
+                                <li>Contactar</li>
+                            </Link>
+                        </ul>
                     </Offcanvas.Body>
                 </Offcanvas>
             </Container>

@@ -45,6 +45,20 @@ body {
 }
 .home-gallery-container .grid-section {
   height: 50vh;
+  transition: all 0.5s;
+}
+.home-gallery-container .grid-section:hover {
+  filter: saturate(2);
+  filter: contrast(1.1);
+  cursor: pointer;
+}
+.home-gallery-container .grid-section-tall {
+  transition: all 0.5s;
+}
+.home-gallery-container .grid-section-tall:hover {
+  filter: saturate(2);
+  filter: contrast(1.1);
+  cursor: pointer;
 }
 .home-gallery-container .grid-text-container {
   position: relative;
@@ -55,7 +69,8 @@ body {
   left: 3%;
   color: white;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
+  text-shadow: 2px 2px 5px rgb(29, 29, 29);
 }
 .home-gallery-container .grid-text-container-tall {
   position: relative;
@@ -66,7 +81,55 @@ body {
   left: 3%;
   color: white;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
+  text-shadow: 2px 2px 5px rgb(29, 29, 29);
+}
+
+.info-container .info-wrapper {
+  position: relative;
+}
+.info-container .info-wrapper .info-text-div {
+  width: 40%;
+  position: absolute;
+  top: 15%;
+  left: 0;
+  padding: 0 0.75rem;
+  text-align: center;
+}
+.info-container .info-wrapper .info-text-div h1 {
+  text-align: center;
+  font-weight: 500;
+}
+
+.btn.btn-primary {
+  background-color: white;
+  color: black;
+  border: 1px solid rgb(231, 222, 219);
+  border-radius: 0px;
+  width: 300px;
+  margin: 3rem;
+}
+.btn.btn-primary:hover {
+  background-color: rgb(39, 41, 41);
+  color: white;
+  border: 1px solid rgb(39, 41, 41);
+}
+
+.nav-drawer {
+  list-style: none;
+  padding: 0;
+}
+.nav-drawer li {
+  font-size: 2rem;
+}
+.nav-drawer li:hover {
+  color: rgb(159, 162, 163);
+  cursor: pointer;
+}
+
+.hamburger-menu:hover {
+  cursor: pointer;
+  color: rgb(159, 162, 163);
 }
 
 /*# sourceMappingURL=App.css.map */
