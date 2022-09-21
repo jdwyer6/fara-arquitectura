@@ -66,13 +66,13 @@ body {
 
     .grid-section{
         height: 50vh;
+
         
         transition: all .5s;
         &:hover{
             filter: saturate(2);
             filter: contrast(1.1);
             cursor: pointer;
-            // transform: scale(1.01);
         }
 
         &-tall{
@@ -81,7 +81,6 @@ body {
                 filter: saturate(2);
                 filter: contrast(1.1);
                 cursor: pointer;
-                // transform: scale(1.01);
             }
         }
     }
@@ -172,13 +171,30 @@ body {
     color: $gray-md;
 }
 
-.gallery-wrapper{
+.image-wrapper{
     padding: 12px 12px;
+
 
     img{
         width: 100%;
         height: 15vw;
         object-fit: cover;
+
+        &:hover{
+            cursor: pointer;
+            opacity: .8;
+        }
     }
+
+}
+
+.modal-content{
+    border-radius: 0px;
+    border: none;
+}
+
+
+.btn-close:active, .btn-close:focus{
+    box-shadow: none;
 }
 
