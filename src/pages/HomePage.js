@@ -3,7 +3,6 @@ import HeroImage from '../assets/images/hero-image.jpg';
 import apartment from '../assets/images/apartment.png';
 import table from '../assets/images/table.png';
 import couch from '../assets/images/couch.png';
-import rooftop from '../assets/images/rooftop.png';
 import { Parallax,  ParallaxLayer} from '@react-spring/parallax';
 import { Link } from 'react-router-dom';
 import blueprints from '../assets/images/blueprints.png';
