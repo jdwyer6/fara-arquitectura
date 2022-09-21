@@ -155,5 +155,8 @@ body {
 .about-text {
   margin: 12vh 12vw;
 }
+.about-text-with-image {
+  align-items: center;
+}
 
 /*# sourceMappingURL=App.css.map */

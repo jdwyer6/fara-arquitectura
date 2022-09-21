@@ -197,6 +197,10 @@ body {
 .about-text{
         margin: 12vh 12vw;
 
+        &-with-image{
+            align-items: center;
+        }
+
 }
 
 
