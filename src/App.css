@@ -132,4 +132,13 @@ body {
   color: rgb(159, 162, 163);
 }
 
+.gallery-wrapper {
+  padding: 12px 12px;
+}
+.gallery-wrapper img {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
 /*# sourceMappingURL=App.css.map */

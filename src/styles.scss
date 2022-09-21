@@ -172,4 +172,13 @@ body {
     color: $gray-md;
 }
 
+.gallery-wrapper{
+    padding: 12px 12px;
+
+    img{
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+    }
+}
 
