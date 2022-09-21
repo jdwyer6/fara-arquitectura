@@ -7,7 +7,7 @@ const AboutPage = () => {
             <Row>
                 <Col>
                     <img width='100%' src={hero}/>
-                    <h1 style={{position: 'absolute', top: '10%', left: '50%', transform: 'translateX(-50%)', textAlign: 'center'}}className='text-white'>“NO HAY RETOS NI CONTRATIEMPOS, SINO OPORTUNIDADES DE DISEÑO.”</h1>
+                    <h1 style={{position: 'absolute', top: '8%', left: '50%', transform: 'translateX(-50%)', textAlign: 'center'}}className='text-white'>“NO HAY RETOS NI CONTRATIEMPOS, SINO OPORTUNIDADES DE DISEÑO.”</h1>
                 </Col>
             </Row>
             <Row>
