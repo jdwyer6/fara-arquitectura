@@ -13,7 +13,6 @@ const Footer = () => {
 
                 <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
                     <li className="ms-3"><BsInstagram className="text-muted" /></li>
-                    <li className="ms-3"><BsFacebook className="text-muted" /></li>
                     <li className="ms-3"><BsTwitter className="text-muted" /></li>
                 </ul>
             </footer>
