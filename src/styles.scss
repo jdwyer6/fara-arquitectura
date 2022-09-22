@@ -194,12 +194,34 @@ body {
     box-shadow: none;
 }
 
-.about-text{
-        margin: 12vh 12vw;
+.about-section{
+    margin: 15vh 0;
 
-        &-with-image{
-            align-items: center;
+    &-image{
+        margin: auto;
+    }
+
+    &-imgBG{
+        position: relative;
+
+        &-text-container{
+            position: absolute;
+            width: 50%;
+            text-align: center;
+            top: 10%;
+            left: 10%;
         }
+
+    }
+}
+
+.about-text{
+    padding: 12vh 5vw;
+    text-align: center;
+}
+
+.info-card-row{
+    margin: 12vh 0;
 
 }
 

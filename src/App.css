@@ -152,11 +152,30 @@ body {
   box-shadow: none;
 }
 
-.about-text {
-  margin: 12vh 12vw;
+.about-section {
+  margin: 15vh 0;
 }
-.about-text-with-image {
-  align-items: center;
+.about-section-image {
+  margin: auto;
+}
+.about-section-imgBG {
+  position: relative;
+}
+.about-section-imgBG-text-container {
+  position: absolute;
+  width: 50%;
+  text-align: center;
+  top: 10%;
+  left: 10%;
+}
+
+.about-text {
+  padding: 12vh 5vw;
+  text-align: center;
+}
+
+.info-card-row {
+  margin: 12vh 0;
 }
 
 /*# sourceMappingURL=App.css.map */

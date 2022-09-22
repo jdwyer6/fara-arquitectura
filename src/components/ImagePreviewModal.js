@@ -6,7 +6,7 @@ function ImagePreviewModal({handleClose, show, img}) {
   return (
     <>
 
-      <Modal size='lg' show={show} onHide={handleClose}>
+      <Modal size='xl' show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Nuestro Trabajo</Modal.Title>
         </Modal.Header>
