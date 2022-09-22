@@ -14,7 +14,7 @@ const ServicesPage = () => {
                 </Col>
             </Row>
 
-
+            <div></div>
             <InfoCard
                 title='ARQUITECTURA'
                 body='Cada proyecto es único y merece un análisis minucioso para integrar las necesidades del cliente, sus expectativas y su presupuesto. Farah Arquitectura y Construcción busca expandir el potencial de la idea inicial hasta llevarla a la solución de diseño ideal, siempre siguiendo un eje central: calidad y excelencia en el más mínimo detalle. Para ello es fundamental crear una relación cercana y sólida entre el equipo creativo y el cliente, comunicando paso a paso estrategias y avances en el proyecto. De esta forma, el despacho ofrece su acompañamiento creativo y experiencia en el campo para proyectos de interiorismo y arquitectura de interiores, renovaciones espaciales, restauraciones inmuebles y proyectos residenciales y comerciales a cualquier escala.'
