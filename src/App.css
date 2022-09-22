@@ -1,1 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+html, body {
+  overflow-x: hidden;
+}
 
+body {
+  position: relative;
+  font-family: "Lato", sans-serif;
+}
+
+.container-fluid {
+  padding: 0 7vw;
+}
+
+.hero-image-container {
+  height: 90vh;
+  position: relative;
+}
+.hero-image-container img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.hero-image-container .hero-text {
+  position: absolute;
+  top: 10%;
+  right: 4%;
+  width: 35%;
+}
+.hero-image-container .hero-text h1, .hero-image-container .hero-text h2 {
+  text-align: end;
+  color: white;
+}
+.hero-image-container .hero-text h1 {
+  font-size: clamp(2em, 3vw, 3vw);
+}
+
+.home-gallery-container .grid-col {
+  max-height: 100vh;
+}
+.home-gallery-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.home-gallery-container .grid-section {
+  height: 50vh;
+  transition: all 0.5s;
+}
+.home-gallery-container .grid-section:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.home-gallery-container .grid-section-tall {
+  transition: all 0.5s;
+}
+.home-gallery-container .grid-section-tall:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.home-gallery-container .grid-text-container {
+  position: relative;
+}
+.home-gallery-container .grid-text-container .grid-text {
+  position: absolute;
+  bottom: 2%;
+  left: 3%;
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+  text-shadow: 2px 2px 5px rgb(29, 29, 29);
+}
+.home-gallery-container .grid-text-container-tall {
+  position: relative;
+}
+.home-gallery-container .grid-text-container-tall .grid-text {
+  position: absolute;
+  bottom: 1%;
+  left: 3%;
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+  text-shadow: 2px 2px 5px rgb(29, 29, 29);
+}
+
+.info-container .info-wrapper {
+  position: relative;
+}
+.info-container .info-wrapper .info-text-div {
+  width: 40%;
+  position: absolute;
+  top: 15%;
+  left: 0;
+  padding: 0 0.75rem;
+  text-align: center;
+}
+.info-container .info-wrapper .info-text-div h1 {
+  text-align: center;
+  font-weight: 500;
+}
+
+.btn.btn-primary {
+  background-color: white;
+  color: black;
+  border: 1px solid rgb(231, 222, 219);
+  border-radius: 0px;
+  width: 300px;
+  margin: 3rem;
+}
+.btn.btn-primary:hover {
+  background-color: rgb(39, 41, 41);
+  color: white;
+  border: 1px solid rgb(39, 41, 41);
+}
+
+.nav-drawer {
+  list-style: none;
+  padding: 0;
+}
+.nav-drawer li {
+  font-size: 2rem;
+}
+.nav-drawer li:hover {
+  color: rgb(159, 162, 163);
+  cursor: pointer;
+}
+
+.hamburger-menu:hover {
+  cursor: pointer;
+  color: rgb(159, 162, 163);
+}
+
+.image-wrapper {
+  padding: 12px 12px;
+}
+.image-wrapper img {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+.image-wrapper img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.modal-content {
+  border-radius: 0px;
+  border: none;
+}
+
+.btn-close:active, .btn-close:focus {
+  box-shadow: none;
+}
+
+.about-section {
+  margin: 15vh 0;
+}
+.about-section-image {
+  margin: auto;
+}
+.about-section-imgBG {
+  position: relative;
+}
+.about-section-imgBG-text-container {
+  position: absolute;
+  width: 50%;
+  text-align: center;
+  top: 10%;
+  left: 10%;
+}
+
+.about-text {
+  padding: 12vh 5vw;
+  text-align: center;
+}
+
+.info-card-row {
+  margin: 12vh 0;
+}
+
+/*# sourceMappingURL=App.css.map */
