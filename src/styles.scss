@@ -211,7 +211,7 @@ body {
 }
 
 .about-section{
-    margin: 15vh 0;
+    margin: 10vh 0;
 
     &-image{
         margin: auto;
@@ -371,27 +371,27 @@ body {
         }
     }
 
-        .info-container{
-            .info-wrapper{
-                overflow: hidden;
-                height: 50vh;
-
-                .info-text-div{
-                    padding: 20px;
-                    width: 70%;
-                    .info-text{
-                        font-size: 100%;
-                        text-shadow: 2px 2px 5px rgb(255, 255, 255);
-                    }
-                }
-
-                img{
-                    height: 100%;
-                    object-fit: cover;
-
+    .info-container{
+        .info-wrapper{
+            overflow: hidden;
+            height: 50vh;
+            .info-text-div{
+                padding: 20px;
+                width: 70%;
+                .info-text{
+                    font-size: 100%;
+                    text-shadow: 2px 2px 5px rgb(255, 255, 255);
                 }
             }
+            img{
+                height: 100%;
+                object-fit: cover;
+            }
         }
+    }
+
+
+    
 
     .about-hero-wrapper{
         overflow: hidden;
@@ -407,9 +407,8 @@ body {
             bottom: auto;
             width: 90%;
             padding: 0 1rem;
-            font-size: 1rem;
+            font-size: 1.3rem;
         }
-
     }
 
     .about-section{
@@ -449,7 +448,21 @@ body {
     
     }
 
+    .about-hero-wrapper{
+        position: relative;
+        h1{
+            top: 3%;
+            position: absolute;
+            bottom: auto;
+            width: 90%;
+            padding: 0 1rem;
+            // font-size: 1.5rem;
+        }
+    }
+
 }
+
+
 
 //XXL Breakpoint
 @media only screen and (max-width: 1400px) {
@@ -463,6 +476,29 @@ body {
         }
         p{
             font-size: 1rem;
+        }
+    }
+
+    .about-section{
+        margin: 4rem 0 0 0;
+
+        .about-text{
+            padding: 0;
+            
+            h1{
+                font-size: 1.5rem;
+            }
+
+            p{
+                font-size: 1rem;
+            }
+        }
+
+    }
+
+    .about-hero-wrapper{
+        h1{
+            top: 7%;
         }
     }
 

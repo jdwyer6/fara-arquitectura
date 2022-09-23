@@ -14,16 +14,16 @@ const AboutPage = () => {
                 </Col>
             </Row>
             <Row className='about-section'>
-                <Col md='8' className='about-text'>
+                <Col lg='8' className='about-text'>
                     <h1>PROYECTO Y CONSTRUCCIÓN</h1>
                     <p>El primer paso en el proceso creativo del despacho se refiere al acercamiento entre el cliente y nuestro equipo, con el propósito de conocer sus ideas y expectativas para conceptualizarlas y reconciliarlas con los alcances esperados. Se realiza una preselección de materiales, paletas cromáticas, sketching visual y se determina una ruta crítica que integre y gestione los trabajos necesarios a emprender dentro del tiempo adecuado para que los expertos en decoración, planeación y construcción creen, formulen y ejecuten el proyecto de inicio a fin.</p>
                 </Col>
-                <Col className='about-section-image'>
+                <Col lg='4' className='about-section-image'>
                     <img width='100%' src={helmet} />
                 </Col>
             </Row>
             <Row className='about-section'>
-                <Col md='5' className='about-section-image d-none d-md-inline'>
+                <Col lg='5'className='about-section-image d-none d-md-inline'>
                     <img src={building} width='100%'/>
                 </Col>
                 <Col className='about-text'>
@@ -36,7 +36,7 @@ const AboutPage = () => {
             </Row>
 
             <Row className='about-section'>
-                <Col md='8' className="about-text">
+                <Col lg='8' className="about-text">
                     <h1>PROYECTO BÁSICO Y  PROYECTO EJECUTIVO</h1>
                     <p>De acuerdo al seguimiento de la ruta crítica, en esta etapa se concretan licencias, permisos, detalles constructivos, materiales según la estética buscada y trabajos a realizar y a su vez, se prevén posibles eventualidades acordes a la ubicación y tipología del proyecto. Farah Arquitectura y Construcción sobresale por su acompañamiento meticuloso y supervisión rigurosa del proceso de obra y de la manufactura impoluta y prolija de cada elemento que dará equilibrio conjunto al proyecto. A partir de esta etapa, el estudio ofrece al cliente dos opciones a seguir: dar continuidad hasta la ejecución de obra y acabados o asumir una dirección facultativa que acompañe el proceso de obra con otro equipo de expertos que al cliente convenga. </p>
                 </Col>

@@ -10,7 +10,7 @@ const InfoCard = ({image, title, body, imagePlacement}) => {
                 </Col>
             ) : ('')}
 
-            <Col className={imagePlacement === 'bottom' ? 'px-0 text-center info-card-text-container' : 'px-5 text-center info-card-text-container'}>
+            <Col className={imagePlacement === 'bottom' ? 'px-0 text-center info-card-text-container my-md-auto' : 'px-5 text-center info-card-text-container my-md-auto'}>
                 <h1>{title}</h1>
                 <p className=''>{body}</p>
                 {imagePlacement === 'bottom' ? (
