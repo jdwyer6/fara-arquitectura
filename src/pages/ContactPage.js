@@ -26,8 +26,7 @@ const ContactPage = () => {
                     </Row>
                     <Row className='text-center d-flex justify-content-center border-top py-5 contact-text-container'>
                         <h3>Las Redes Sociales</h3>
-                        <BsInstagram className="text-muted" style={{width: '100px'}}/>
-                        <BsTwitter className="text-muted" style={{width: '100px'}}/>
+                        <a href='https://www.instagram.com/farah_arquitectura/' style={{width: '100px'}}><BsInstagram className="text-muted"/></a>
                     </Row>
                 </Col>
 

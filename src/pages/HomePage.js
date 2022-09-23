@@ -23,9 +23,10 @@ const HomePage = () => {
             </Row>
             <Row className='py-4 home-gallery-container'>
                 <Col md='6' className='grid-col grid-section-tall grid-text-container-tall'>
-                    <img src={apartment} className='d-none d-md-inline' alt='apartment'/>
-                    {/* <img src={livingroom} className='d-inline d-md-none' alt='apartment'/> */}
-                    <h5 className='grid-text d-none d-md-inline'>Acerca de</h5>
+                    <Link to='about'>
+                        <img src={apartment} className='d-none d-md-inline' alt='apartment'/>
+                        <h5 className='grid-text d-none d-md-inline'>Acerca de</h5>
+                    </Link>
                 </Col>
                 <Col className='grid-col'>
                     <Col md='12' className='pb-md-2 grid-section mb-4 mb-md-0 grid-text-container'>
@@ -36,8 +37,11 @@ const HomePage = () => {
                         <h5 className='grid-text'>Servicios</h5>
                     </Col>
                     <Col md='12' className='pt-md-2 grid-section grid-text-container'>
-                        <img src={couch} alt='couch'/>
-                        <h5 className='grid-text'>Galería</h5>
+                        <Link to='gallery'>
+                            <img src={couch} alt='couch'/>
+                            <h5 className='grid-text'>Galería</h5>
+                        </Link>
+
                     </Col>
                 </Col>
             </Row>
@@ -45,7 +49,9 @@ const HomePage = () => {
                 <Col className='info-wrapper'>
                     <div className='info-text-div'>
                         <h1 className='info-text'>Resolvemos desafíos aprovechando la experiencia colectiva y el ingenio de las mejores y más brillantes mentes en desarrollo, diseño y construcción.</h1>
-                        <Button className='d-md-inline d-none'>Reservar una Consulta</Button>
+                        <Link to='contact' class='text-decoration-none'>
+                            <Button  className='d-md-inline d-none'>Reservar una Consulta</Button>
+                        </Link>
                     </div>
                     <img width='100%' src={blueprints} alt='blueprints'/>
                 </Col>

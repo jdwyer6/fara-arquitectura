@@ -346,6 +346,7 @@ body {
     .contact-image{
         padding: 0;
     }
+
 }
 
 //Medium Breakpoint
@@ -379,7 +380,7 @@ body {
                     padding: 20px;
                     width: 70%;
                     .info-text{
-                        font-size: 4vw;
+                        font-size: 100%;
                         text-shadow: 2px 2px 5px rgb(255, 255, 255);
                     }
                 }
@@ -413,6 +414,7 @@ body {
 
     .about-section{
         margin-top: 2rem;
+        margin-bottom: 0;
         padding: 0;
     }
 
@@ -421,7 +423,7 @@ body {
         
         h1{
             font-size: 1.2rem;
-            border-bottom: 1px solid $gray;
+            // border-bottom: 1px solid $gray;
             font-weight: 600;
         }
 

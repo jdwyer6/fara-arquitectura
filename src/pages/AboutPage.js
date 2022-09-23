@@ -44,7 +44,7 @@ const AboutPage = () => {
                     <img width='100%' src={clouds} alt='about-image' />
                 </Col>
             </Row>
-            <Row className='about-section border-top'>
+            <Row className='about-section'>
                 <Col className='about-text'>
                     <h1>LÍNEA DE ESTILO, RESTAURACIÓN  Y DECORACIÓN ESPACIAL</h1>
                     <p>Como etapa final, el despacho enfoca su visión estética en la interacción del usuario con la habitación del espacio. Para alcanzar la experiencia deseada, mediante el uso de recursos gráficos y muestreos, se crea un         moodboard físico específico con materiales, texturas y colores para ayudar al cliente a aterrizar y visualizar el concepto deseado y definir así su propia línea de estilo y paleta cromática de acuerdo a sus gustos y necesidades. 

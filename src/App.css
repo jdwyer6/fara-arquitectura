@@ -292,7 +292,7 @@ body {
     width: 70%;
   }
   .info-container .info-wrapper .info-text-div .info-text {
-    font-size: 4vw;
+    font-size: 100%;
     text-shadow: 2px 2px 5px rgb(255, 255, 255);
   }
   .info-container .info-wrapper img {
@@ -316,6 +316,7 @@ body {
   }
   .about-section {
     margin-top: 2rem;
+    margin-bottom: 0;
     padding: 0;
   }
   .about-text {
@@ -323,7 +324,6 @@ body {
   }
   .about-text h1 {
     font-size: 1.2rem;
-    border-bottom: 1px solid rgb(231, 222, 219);
     font-weight: 600;
   }
   .about-text p {

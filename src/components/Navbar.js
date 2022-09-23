@@ -28,19 +28,19 @@ function Navigation() {
                     </Offcanvas.Header>
                     <Offcanvas.Body>
                         <ul className='nav-drawer'>
-                            <Link to='/' style={{textDecoration:'none', color: 'black'}}>
+                            <Link to='/' style={{textDecoration:'none', color: 'black'}} onClick={()=>handleClose()}>
                                 <li>Home</li>
                             </Link>
-                            <Link to='about' style={{textDecoration:'none', color: 'black'}}>
+                            <Link to='about' style={{textDecoration:'none', color: 'black'}} onClick={()=>handleClose()}>
                                 <li>Acerca de</li>
                             </Link>
-                            <Link to='services' style={{textDecoration:'none', color: 'black'}}>
+                            <Link to='services' style={{textDecoration:'none', color: 'black'}} onClick={()=>handleClose()}>
                                 <li>Servicios</li>
                             </Link>
-                            <Link to='gallery' style={{textDecoration:'none', color: 'black'}}>
+                            <Link to='gallery' style={{textDecoration:'none', color: 'black'}} onClick={()=>handleClose()}>
                                 <li>Galería</li>
                             </Link>
-                            <Link to='contact' style={{textDecoration:'none', color: 'black'}}>
+                            <Link to='contact' style={{textDecoration:'none', color: 'black'}} onClick={()=>handleClose()}>
                                 <li>Contactar</li>
                             </Link>
                         </ul>

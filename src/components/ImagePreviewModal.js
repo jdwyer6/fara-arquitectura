@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import {Button, Modal} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function ImagePreviewModal({handleClose, show, img}) {
 
@@ -14,9 +15,12 @@ function ImagePreviewModal({handleClose, show, img}) {
           <img src={img} width='100%' alt='enlarged image'/>
         </Modal.Body>
         <Modal.Footer className='d-flex justify-content-center'>
-          <Button style={{margin: '1rem'}} variant="primary" onClick={handleClose}>
-            Reservar una Consulta
-          </Button>
+          <Link to='/contact'>
+            <Button style={{margin: '1rem'}} variant="primary" onClick={handleClose}>
+              Reservar una Consulta
+            </Button>
+          </Link>
+
           <Button style={{margin: '1rem'}} variant="primary" onClick={handleClose}>
             Atras
           </Button>
