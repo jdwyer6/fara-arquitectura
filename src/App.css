@@ -6,6 +6,7 @@ html, body {
 body {
   position: relative;
   font-family: "Lato", sans-serif;
+  overflow: hidden;
 }
 
 .container-fluid {
@@ -13,7 +14,6 @@ body {
 }
 
 .hero-image-container {
-  height: 90vh;
   position: relative;
 }
 .hero-image-container img {
@@ -33,6 +33,10 @@ body {
 }
 .hero-image-container .hero-text h1 {
   font-size: clamp(2em, 3vw, 3vw);
+}
+
+.navbar-brand img {
+  width: 250px;
 }
 
 .home-gallery-container .grid-col {
@@ -66,7 +70,7 @@ body {
   bottom: 2%;
   left: 3%;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   text-shadow: 2px 2px 5px rgb(29, 29, 29);
 }
@@ -78,7 +82,7 @@ body {
   bottom: 1%;
   left: 3%;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   text-shadow: 2px 2px 5px rgb(29, 29, 29);
 }
@@ -98,13 +102,20 @@ body {
   text-align: center;
   font-weight: 500;
 }
+.info-container .info-wrapper .info-text-div .btn {
+  margin: 3vw;
+}
+
+.info-text {
+  font-size: 2vw;
+}
 
 .btn.btn-primary {
   background-color: white;
   color: black;
   border: 1px solid rgb(231, 222, 219);
   border-radius: 0px;
-  width: 300px;
+  max-width: 300px;
   margin: 3rem;
 }
 .btn.btn-primary:hover {
@@ -180,6 +191,68 @@ body {
 
 .contact-wrapper {
   margin: 4vh 10vw;
+}
+
+@media only screen and (max-width: 576px) {
+  .hero-image-container img {
+    height: 82vh;
+  }
+  .hero-image-container .hero-text {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: 50%;
+    transform: translateY(50%);
+    width: 100%;
+    padding: 2rem;
+  }
+  .hero-image-container .hero-text h1, .hero-image-container .hero-text h2 {
+    text-align: start;
+    font-size: 1rem;
+    margin: 0 0 0 0;
+    text-shadow: 2px 2px 5px black;
+    color: whiteblack;
+  }
+  .hero-image-container .hero-text h1 {
+    font-size: 1.8rem;
+  }
+  .hidden-on-small {
+    display: none;
+  }
+  .visible-on-small {
+    display: inline;
+  }
+  .navbar-brand img {
+    width: 200px;
+  }
+  .footer-text {
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero-image-container img {
+    height: 82vh;
+  }
+  .hero-image-container .hero-text {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: 50%;
+    transform: translateY(50%);
+    width: 100%;
+    padding: 2rem;
+  }
+  .hero-image-container .hero-text h1, .hero-image-container .hero-text h2 {
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+  }
+  .info-container .info-wrapper .info-text-div {
+    width: 60%;
+  }
+  .info-container .info-wrapper .info-text-div .info-text {
+    font-size: 4vw;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+  }
 }
 
 /*# sourceMappingURL=App.css.map */

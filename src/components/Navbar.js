@@ -18,7 +18,7 @@ function Navigation() {
         <Navbar bg="transparent" expand="lg" className='py-4'>
             <Container fluid>
                 <Navbar.Brand as={Link} to='/'>
-                    <img src={logo} alt='logo' aria-details='logo' width='250px'/>
+                    <img src={logo} alt='logo' aria-details='logo'/>
                 </Navbar.Brand>
                 <GiHamburgerMenu className='hamburger-menu' variant="primary" onClick={handleShow}>Launch</GiHamburgerMenu>
 
