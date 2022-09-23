@@ -9,8 +9,8 @@ const ServicesPage = () => {
     return ( 
         <Container fluid>
             <Row>
-                <Col >
-                    <img width='100%' src={hero} alt='services-img' />
+                <Col className='services-hero-wrapper'>
+                    <img src={hero} alt='services-img' />
                 </Col>
             </Row>
 

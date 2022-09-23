@@ -11,20 +11,20 @@ const ContactPage = () => {
                     <h1 className='text-center border-bottom border-top'>Contáctanos</h1>
                 </Col>
             </Row>
-            <Row className='contact-wrapper d-flex align-items-center'>
-                <Col md='5'>
-                    <img src={kitchen} width='100%' />
+            <Row className='contact-wrapper d-flex align-items-center justify-content-center'>
+                <Col className='contact-image' lg='5' xl='4'>
+                    <img src={kitchen} width='100%'/>
                 </Col>
-                <Col className='px-5 mx-5'>
-                    <Row className="text-center border-top border-bottom py-5">
+                <Col className='px-md-5 mx-md-5 mx-0 px-0'>
+                    <Row className="text-center py-5 contact-text-container">
                         <h3>Correo Electrónico</h3>
                         <p className="mt-2">proyectos@faraharquitectura.com</p>
                     </Row>
-                    <Row className="text-center border-top border-bottom py-5">
+                    <Row className="text-center border-top py-5 contact-text-container">
                         <h3>Teléfono</h3>
                         <p className="mt-2">+52 55 39644319</p>
                     </Row>
-                    <Row className='text-center d-flex justify-content-center border-top border-bottom py-5'>
+                    <Row className='text-center d-flex justify-content-center border-top py-5 contact-text-container'>
                         <h3>Las Redes Sociales</h3>
                         <BsInstagram className="text-muted" style={{width: '100px'}}/>
                         <BsTwitter className="text-muted" style={{width: '100px'}}/>

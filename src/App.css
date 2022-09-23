@@ -184,6 +184,17 @@ body {
   padding: 12vh 5vw;
   text-align: center;
 }
+.about-text p {
+  font-size: 1.5rem;
+}
+
+.about-hero-wrapper h1 {
+  position: absolute;
+  top: 4%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
 
 .info-card-row {
   margin: 12vh 0;
@@ -191,6 +202,19 @@ body {
 
 .contact-wrapper {
   margin: 4vh 10vw;
+}
+
+.info-card-text-container p {
+  font-size: 1.5rem;
+}
+
+.info-card-image-container {
+  display: flex;
+  align-items: center;
+}
+
+.services-hero-wrapper img {
+  width: 100%;
 }
 
 @media only screen and (max-width: 576px) {
@@ -216,17 +240,30 @@ body {
   .hero-image-container .hero-text h1 {
     font-size: 1.8rem;
   }
-  .hidden-on-small {
-    display: none;
-  }
-  .visible-on-small {
-    display: inline;
-  }
   .navbar-brand img {
     width: 200px;
   }
   .footer-text {
     font-size: 11px;
+  }
+  .services-hero-wrapper {
+    overflow: hidden;
+    height: 80vh;
+  }
+  .services-hero-wrapper img {
+    height: 100%;
+    text-align: middle;
+    object-fit: cover;
+    object-position: 10% 0px;
+  }
+  .contact-text-container h3 {
+    font-size: 1.2rem;
+  }
+  .contact-text-container p {
+    font-size: 0.9rem;
+  }
+  .contact-image {
+    padding: 0;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -246,12 +283,72 @@ body {
     text-align: center;
     text-shadow: 2px 2px 5px black;
   }
+  .info-container .info-wrapper {
+    overflow: hidden;
+    height: 50vh;
+  }
   .info-container .info-wrapper .info-text-div {
-    width: 60%;
+    padding: 20px;
+    width: 70%;
   }
   .info-container .info-wrapper .info-text-div .info-text {
     font-size: 4vw;
     text-shadow: 2px 2px 5px rgb(255, 255, 255);
+  }
+  .info-container .info-wrapper img {
+    height: 100%;
+    object-fit: cover;
+  }
+  .about-hero-wrapper {
+    overflow: hidden;
+    height: 80vh;
+  }
+  .about-hero-wrapper img {
+    object-fit: cover;
+    height: 100%;
+  }
+  .about-hero-wrapper h1 {
+    top: 5%;
+    bottom: auto;
+    width: 90%;
+    padding: 0 1rem;
+    font-size: 1rem;
+  }
+  .about-section {
+    margin-top: 2rem;
+    padding: 0;
+  }
+  .about-text {
+    padding: 0;
+  }
+  .about-text h1 {
+    font-size: 1.2rem;
+    border-bottom: 1px solid rgb(231, 222, 219);
+    font-weight: 600;
+  }
+  .about-text p {
+    font-size: 1rem;
+  }
+  .info-card-row {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .image-wrapper img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .info-card-text-container {
+    padding: 0 !important;
+    margin-top: 6vh;
+  }
+  .info-card-text-container h1 {
+    font-size: 1.3rem;
+  }
+  .info-card-text-container p {
+    font-size: 1rem;
   }
 }
 
