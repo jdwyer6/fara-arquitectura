@@ -41,7 +41,7 @@ function Navigation() {
                                 <li>Galería</li>
                             </Link>
                             <Link to='contact' style={{textDecoration:'none', color: 'black'}} onClick={()=>handleClose()}>
-                                <li>Contactar</li>
+                                <li>Contacto</li>
                             </Link>
                         </ul>
                     </Offcanvas.Body>

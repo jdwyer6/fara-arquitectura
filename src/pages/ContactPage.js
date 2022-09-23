@@ -25,7 +25,7 @@ const ContactPage = () => {
                         <p className="mt-2">+52 55 39644319</p>
                     </Row>
                     <Row className='text-center d-flex justify-content-center border-top py-5 contact-text-container'>
-                        <h3>Las Redes Sociales</h3>
+                        <h3>Redes Sociales</h3>
                         <a href='https://www.instagram.com/farah_arquitectura/' style={{width: '100px'}}><BsInstagram className="text-muted"/></a>
                     </Row>
                 </Col>
