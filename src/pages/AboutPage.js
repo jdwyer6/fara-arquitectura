@@ -14,6 +14,11 @@ const AboutPage = () => {
                 </Col>
             </Row>
             <Row className='about-section'>
+                <Col className='border-top border-bottom'>
+                    <p className='about-intro-text'>Farah Arquitectura y Construcción es un despacho mexicano dedicado al diseño arquitectónico y construcción con sede en la Ciudad de México. Con diez años de experiencia, el despacho cuenta con un portafolio de más de 50 proyectos dirigidos en diversas ciudades dentro del área metropolitana y sus cercanías. </p>
+                </Col>
+            </Row>
+            <Row className='about-section'>
                 <Col lg='8' className='about-text'>
                     <h1>PROYECTO Y CONSTRUCCIÓN</h1>
                     <p>El primer paso en el proceso creativo del despacho se refiere al acercamiento entre el cliente y nuestro equipo, con el propósito de conocer sus ideas y expectativas para conceptualizarlas y reconciliarlas con los alcances esperados. Se realiza una preselección de materiales, paletas cromáticas, sketching visual y se determina una ruta crítica que integre y gestione los trabajos necesarios a emprender dentro del tiempo adecuado para que los expertos en decoración, planeación y construcción creen, formulen y ejecuten el proyecto de inicio a fin.</p>

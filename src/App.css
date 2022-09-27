@@ -217,6 +217,13 @@ body {
   width: 100%;
 }
 
+.about-intro-text {
+  font-size: clamp(16px, 1.4vw, 24px);
+  text-align: center;
+  padding: 5vh 0;
+  font-weight: 700;
+}
+
 @media only screen and (max-width: 576px) {
   .hero-image-container img {
     height: 82vh;
