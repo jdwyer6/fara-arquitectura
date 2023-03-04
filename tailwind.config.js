@@ -13,7 +13,8 @@ module.exports = {
         'ivory': '#f4f3eb'
       },
       fontSize:{
-        'brand': '240px'
+        'brand': '240px',
+        'brand-md': '160px',
       }
     },
   },

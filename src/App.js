@@ -1,26 +1,34 @@
 import './index.css';
 import LandingPage from './pages/Landing';
-import Navigation from './components/Navbar';
-import LandingPageNavbar from './components/LandingPageNavbar';
-import ServicesPage from './pages/ServicesPage';
+import InterioresHomePage from './pages/InterioresHomePage';
+import InterioresAboutPage from './pages/InterioresAboutPage';
+import ConstruccionHomePage from './pages/ConstruccionHomePage';
+import ConstruccionAboutPage from './pages/ConstruccionAboutPage';
+import ContactPage from './pages/ContactPage';
+import GraciasPage from './pages/GraciasPage';
+import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import AboutPage from './pages/AboutPage';
-import ContactPage from './pages/ContactPage';
-import GalleryPage from './pages/GalleryPage';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 
 
 function App() {
+
+	const location = useLocation();
+
   return (
     <div className="App">
-			{/* <Navigation /> */}
-			{/* <LandingPageNavbar /> */}
+		{location.pathname !== '/' ? (<Navbar />) : (null)}
 			<Routes>
 				<Route path='/' element={<LandingPage />}/>
-				{/* <Route path='services' element={<ServicesPage />}/>
-				<Route path='about' element={<AboutPage />}/>
-				<Route path='contact' element={<ContactPage />}/>
-				<Route path='gallery' element={<GalleryPage />}/> */}
+				<Route path='/about' element={<AboutPage />}/>
+				<Route path='/interiores-home' element={<InterioresHomePage />}/>
+				<Route path='/interiores-about' element={<InterioresAboutPage />}/>
+				<Route path='/construccion-home' element={<ConstruccionHomePage />}/>
+				<Route path='/construccion-about' element={<ConstruccionAboutPage />}/>
+				<Route path='/contact' element={<ContactPage />}/>
+				<Route path='/gracias' element={<GraciasPage />}/>
+
 			</Routes>
 			<Footer />
 

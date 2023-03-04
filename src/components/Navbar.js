@@ -1,55 +1,40 @@
-// import { Container, Navbar } from 'react-bootstrap';
-// import { GiHamburgerMenu } from 'react-icons/gi';
-// import  { useState } from 'react';
-// import Offcanvas from 'react-bootstrap/Offcanvas';
-// import logo from '../assets/images/logo.png';
-// import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+import logo from '../assets/images/new/logo_no_text.png';
 
 
+const LandingPageNavbar = () => {
+    return ( 
 
-// function Navigation() {
+        <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+            <div class="container flex flex-wrap items-center justify-between mx-auto">
+                <Link to={'/'} class="flex items-center">
+                    <img src={logo} width="80px" height="auto"  alt="Logo" />
+                </Link>
+                <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded md:bg-transparent md:p-0 md:hover:text-olive dark:text-white" aria-current="page">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded md:hover:bg-transparent md:border-0 md:hover:text-olive md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">ACERCA DE</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded md:hover:bg-transparent md:border-0 md:hover:text-olive md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">GALERIA</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded md:hover:bg-transparent md:border-0 md:hover:text-olive md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">CONTACTO</a>
+                    </li>
 
-//     const [show, setShow] = useState(false);
+                </ul>
+                </div>
+            </div>
+        </nav>
 
-//     const handleClose = () => setShow(false);
-//     const handleShow = () => setShow(true);
-
-//   return (
-//         <Navbar bg="transparent" expand="lg" className='py-4'>
-//             <Container fluid>
-//                 <Navbar.Brand as={Link} to='/'>
-//                     <img src={logo} alt='logo' aria-details='logo'/>
-//                 </Navbar.Brand>
-//                 <GiHamburgerMenu className='hamburger-menu' variant="primary" onClick={handleShow}>Launch</GiHamburgerMenu>
-
-//                 <Offcanvas show={show} onHide={handleClose} placement='end'>
-//                     <Offcanvas.Header closeButton>
-//                         <Offcanvas.Title>EXPLORAR</Offcanvas.Title>
-//                     </Offcanvas.Header>
-//                     <Offcanvas.Body>
-//                         <ul className='nav-drawer'>
-//                             <Link to='/' style={{textDecoration:'none', color: 'black'}} onClick={()=>handleClose()}>
-//                                 <li>Home</li>
-//                             </Link>
-//                             <Link to='about' style={{textDecoration:'none', color: 'black'}} onClick={()=>handleClose()}>
-//                                 <li>Acerca de</li>
-//                             </Link>
-//                             <Link to='services' style={{textDecoration:'none', color: 'black'}} onClick={()=>handleClose()}>
-//                                 <li>Servicios</li>
-//                             </Link>
-//                             <Link to='gallery' style={{textDecoration:'none', color: 'black'}} onClick={()=>handleClose()}>
-//                                 <li>Galería</li>
-//                             </Link>
-//                             <Link to='contact' style={{textDecoration:'none', color: 'black'}} onClick={()=>handleClose()}>
-//                                 <li>Contacto</li>
-//                             </Link>
-//                         </ul>
-//                     </Offcanvas.Body>
-//                 </Offcanvas>
-//             </Container>
-
-//         </Navbar>
-//   );
-// }
-
-// export default Navigation;
+     );
+}
+ 
+export default LandingPageNavbar;
