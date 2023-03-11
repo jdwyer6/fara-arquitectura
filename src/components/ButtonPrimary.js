@@ -1,6 +1,6 @@
-const ButtonPrimary = ({btnText}) => {
+const ButtonPrimary = ({text}) => {
     return ( 
-        <button className="bg-ivory w-full px-8 md:w-96 text-xs md:text-sm text-gray-dark font-medium tracking-widest py-6 rounded-xl md:mx-8 hover:bg-white ease-out duration-300 my-1">{btnText}</button>
+        <button style={{width: 'clamp(40px, 50%, 400px)'}} className={`bg-brown px-8 text-xs md:text-sm text-white font-medium tracking-widest py-6 rounded-xl md:mx-8 hover:bg-gray-dark ease-out duration-300 my-1`}>{text}</button>
      );
 }
  
