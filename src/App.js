@@ -4,6 +4,7 @@ import InterioresHomePage from './pages/InterioresHomePage';
 import InterioresAboutPage from './pages/InterioresAboutPage';
 import ConstruccionHomePage from './pages/ConstruccionHomePage';
 import ConstruccionAboutPage from './pages/ConstruccionAboutPage';
+import GalleryPage from './pages/GalleryPage';
 import ContactPage from './pages/ContactPage';
 import GraciasPage from './pages/GraciasPage';
 import Navbar from './components/Navbar';
@@ -26,6 +27,7 @@ function App() {
 				<Route path='/interiores-about' element={<InterioresAboutPage />}/>
 				<Route path='/construccion-home' element={<ConstruccionHomePage />}/>
 				<Route path='/construccion-about' element={<ConstruccionAboutPage />}/>
+				<Route path='/gallery' element={<GalleryPage />}/>
 				<Route path='/contact' element={<ContactPage />}/>
 				<Route path='/gracias' element={<GraciasPage />}/>
 

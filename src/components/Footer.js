@@ -5,21 +5,20 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return ( 
-        <></>
-        // <Container fluid>
-        //     <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        //         <div className="col-md-4 d-flex align-items-center">
-        //             <a href="/" className="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-        //             </a>
-        //             <span className="text-muted footer-text">&copy; 2022 Farah Arquitectura y Construcción</span>
-        //         </div>
+        
+        <footer className="p-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
+            <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a className="hover:underline">FARAH ARQUITECTURA™</a>. All Rights Reserved.
+            </span>
+            <ul className="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+                <li>
+                    <a href="https://www.instagram.com/farah_arquitectura/" className="mr-4 hover:underline md:mr-6 ">Instagram</a>
+                </li>
+                <li>
+                    <Link to='/contact' className="hover:underline">Contacto</Link>
+                </li>
+            </ul>
+        </footer>
 
-        //         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex align-items-center">
-        //             <a href='https://www.instagram.com/farah_arquitectura/'><li className="ms-3 footer-text"><BsInstagram className="text-muted" /></li></a>
-        //             <Link to='contact'><li className="ms-3 footer-text"><FiMail className="text-muted" /></li></Link>
-        //         </ul>
-        //     </footer>
-        // </Container>
      );
 }
 export default Footer;

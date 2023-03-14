@@ -10,7 +10,7 @@ import ButtonTertiary from '../components/ButtonTertiary';
 
 const InterioresHomePage = () => {
     return ( 
-        <div class="container flex flex-wrap mx-auto">
+        <div class="container flex flex-wrap m-auto">
             <section className='flex w-screen mb-32'>
                 <div className='relative flex-1 overflow-hidden' style={{height:'920px'}}>
                     <img className='absolute' style={{bottom:'-80px'}} src={mainInteriorsImage}/>
