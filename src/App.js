@@ -11,17 +11,19 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import AboutPage from './pages/AboutPage';
 import { Routes, Route, useLocation } from 'react-router-dom';
+import { useState } from 'react';
 
 
 function App() {
 
+	const [section, setSection] = useState(0);
 	const location = useLocation();
 
   return (
     <div className="App">
-		{location.pathname !== '/' ? (<Navbar />) : (null)}
+		{location.pathname !== '/' ? (<Navbar section={section} />) : (null)}
 			<Routes>
-				<Route path='/' element={<LandingPage />}/>
+				<Route path='/' element={<LandingPage setSection={setSection}/>}/>
 				<Route path='/about' element={<AboutPage />}/>
 				<Route path='/interiores-home' element={<InterioresHomePage />}/>
 				<Route path='/interiores-about' element={<InterioresAboutPage />}/>
