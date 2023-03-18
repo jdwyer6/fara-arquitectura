@@ -15,6 +15,7 @@ module.exports = {
       fontSize:{
         'brand': '240px',
         'brand-md': '160px',
+        'h1': '64px'
       }
     },
   },

@@ -88,7 +88,7 @@ import page186 from '../assets/images/new/gallery_modal/186.png';
 const GalleryPage = () => {
     return ( 
         <div>
-            <div className='px-16 pb-16 image-gallery'>
+            <div className='px-4 md:px-16 pb-4 md:pb-16 image-gallery'>
                 <img src={page1}/>
                 <img src={page12}/>
                 <img src={page13}/>

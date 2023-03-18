@@ -16,6 +16,7 @@ const InterioresHomePage = () => {
              galleryImage2={galleryImage2}
              galleryImage3={galleryImage3}
              galleryImage4={galleryImage4}
+             whoAreWeText='Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro omnis illo expedita! Perspiciatis, aut autem tenetur distinctio itaque voluptate ratione fuga aspernatur qui quidem animi blanditiis eum, quod, temporibus ullam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro omnis illo expedita! Perspiciatis, aut autem tenetur distinctio itaque voluptate ratione fuga aspernatur qui quidem animi blanditiis eum, quod, temporibus ullam!'
              />
         </>
      );
