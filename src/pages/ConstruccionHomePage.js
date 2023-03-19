@@ -17,9 +17,11 @@ const ConstruccionHomePage = () => {
                 galleryImage2={gallery2}
                 galleryImage3={gallery3}
                 galleryImage4={gallery4}
+                whoAreWeText='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque maxime voluptas minima nihil. Mollitia ut cupiditate alias minima, perspiciatis obcaecati eius? Voluptatibus, velit odio sed animi a ex magnam. Ducimus?'
              />
         </>
      );
+     
 }
  
 export default ConstruccionHomePage;

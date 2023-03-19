@@ -20,7 +20,7 @@ const LandingPage = ({setSection}) => {
                 <div className='absolute h-full w-full bg-gradient-to-b from-gray-800 to-transparent'></div>
             </div>
 
-            <nav className="bg-transparent px-2 sm:px-4 py-8 rounded dark:bg-gray-900 absolute z-10 top-0 w-full">
+            <nav className="bg-transparent px-4 py-8 rounded dark:bg-gray-900 absolute z-10 top-0 w-full">
                 <div className="container flex flex-wrap items-center justify-between mx-auto">
                     <a className="flex items-center">
                         <img className='w-8' src={logo} height="auto"  alt="Logo" />

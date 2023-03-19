@@ -11,7 +11,7 @@ const ContactPage = () => {
 
 
     return ( 
-        <div className="h-screen px-2 md:px-16 xl:px-32 ">
+        <div className="md:h-screen px-2 md:px-16 xl:px-32 ">
             <form action="https://formsubmit.co/9b9906a5003ad4c65cbd82615315fc4d" method="POST">
                 <div className='text-center'>
                     <h2>CONTÁCTANOS</h2>
@@ -46,7 +46,7 @@ const ContactPage = () => {
                     <label htmlFor="message">Mensaje <span className='text-red-600'>*</span></label>
                     <textarea name="message" onChange={(e)=>setMessage(e.target.value)} className='h-40 bg-ivory rounded-lg focus:outline-sand' placeholder="Escribe tu mensaje..." style={{textIndent: '16px', lineHeight: '40px'}}></textarea>
                 </div>
-                <div className='w-full md:w-1/2'>
+                <div className='w-full md:w-1/2 py-8'>
                     <ButtonPrimary type="submit" text='ENVIAR'/>
                 </div>
                 

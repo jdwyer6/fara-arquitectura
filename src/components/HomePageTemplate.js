@@ -47,7 +47,7 @@ const HomePageTemplate = ({primaryImage, secondaryImage, galleryImage1, galleryI
             </section>
 
             <section className='flex flex-wrap lg:flex-nowrap mb-8 md:mb-32 w-full'>
-                <div className='py-16 lg:pr-16 md:h-screen lg:h-full flex flex-col flex-1 justify-start md:justify-between text-left'>
+                <div className='py-16 lg:pr-16 md:h-screen lg:h-full flex flex-col md:flex-1 justify-start md:justify-between text-left'>
                     <h1 className='hidden md:block'>CONOCEMOS EL PROCESO</h1>
                     <h1 className='text-2xl md:hidden mb-8'>CONOCEMOS EL PROCESO</h1>
                     <p className='mb-8 md:mb-0'>El estudio planifica y coordina los trabajos de construcción directamente para garantizar los más altos estándares de proyecto, cuidando cada aspecto arquitectónico: desde los estudios y evaluaciones preliminares hasta la planificación ejecutiva y las tecnologías de construcción, hasta el mobiliario de sastrería.</p>
@@ -71,12 +71,12 @@ const HomePageTemplate = ({primaryImage, secondaryImage, galleryImage1, galleryI
                 </div>
             </section>
 
-            <section className='flex flex-wrap mb-32 w-full'>
+            <section className='flex flex-wrap mb-8 md:mb-32 w-full'>
 
-                <img src={galleryImage1} className='w-full md:w-1/3 px-2 md:pr-8 pb-8 object-cover'/>
-                <img src={galleryImage2} className='w-full md:w-2/3 px-2 md:pl-8 pb-8 object-cover'/>
-                <img src={galleryImage3} className='w-full md:w-2/3 px-2 md:pr-8 pb-8 object-cover'/>
-                <img src={galleryImage4} className='w-full md:w-1/3 px-2 md:pl-8 pb-8 object-cover'/>
+                <img src={galleryImage1} className='w-full md:w-1/3 md:pr-8 pb-8 object-cover'/>
+                <img src={galleryImage2} className='w-full md:w-2/3 md:pl-8 pb-8 object-cover'/>
+                <img src={galleryImage3} className='w-full md:w-2/3 md:pr-8 pb-8 object-cover'/>
+                <img src={galleryImage4} className='w-full md:w-1/3 md:pl-8 pb-8 object-cover'/>
             </section>
 
 
