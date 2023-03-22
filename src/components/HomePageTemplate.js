@@ -2,7 +2,18 @@ import ButtonPrimary from '../components/ButtonPrimary';
 import ButtonSecondary from '../components/ButtonSecondary';
 import ButtonTertiary from '../components/ButtonTertiary';
 
-const HomePageTemplate = ({primaryImage, secondaryImage, galleryImage1, galleryImage2, galleryImage3, galleryImage4, whoAreWeText}) => {
+const HomePageTemplate = ({primaryImage, 
+    secondaryImage, 
+    galleryImage1, 
+    galleryImage2, 
+    galleryImage3, 
+    galleryImage4, 
+    whoAreWeText,
+    conocemosElProcesoText,
+    experenciaSinIgualTexto,
+    EquipoMultidisciplinarioTexto,
+    contactanosHoyTexto,
+}) => {
     return ( 
         <div className="flex flex-wrap px-2 md:px-16 xl:px-32">
             <section className='flex w-screen xl:h-screen md:mb-32 mb-8'>
@@ -50,7 +61,7 @@ const HomePageTemplate = ({primaryImage, secondaryImage, galleryImage1, galleryI
                 <div className='py-16 lg:pr-16 md:h-screen lg:h-full flex flex-col md:flex-1 justify-start md:justify-between text-left'>
                     <h1 className='hidden md:block'>CONOCEMOS EL PROCESO</h1>
                     <h1 className='text-2xl md:hidden mb-8'>CONOCEMOS EL PROCESO</h1>
-                    <p className='mb-8 md:mb-0'>El estudio planifica y coordina los trabajos de construcción directamente para garantizar los más altos estándares de proyecto, cuidando cada aspecto arquitectónico: desde los estudios y evaluaciones preliminares hasta la planificación ejecutiva y las tecnologías de construcción, hasta el mobiliario de sastrería.</p>
+                    <p className='mb-8 md:mb-0'>{conocemosElProcesoText}</p>
                     <div>
                         <ButtonTertiary text='NUESTROS PROYECTOS'/>
                     </div>
@@ -60,12 +71,12 @@ const HomePageTemplate = ({primaryImage, secondaryImage, galleryImage1, galleryI
                     <div className='mb-16 text-left'>
                         <h2 className='mb-8 hidden md:block'>EXPERIENCIA SIN IGUAL</h2>
                         <h2 className='mb-8 text-2xl md:hidden'>EXPERIENCIA SIN IGUAL</h2>
-                        <p>Con Farah Arquitectura, no hay retos ni contratiempos, sino oportunidades de diseño. Cualquier reto contextual es una gran oportunidad creativa para el desarrollo integral y potencial de proyecto, desde su desarrollo conceptual hasta su ejecución.</p>
+                        <p>{experenciaSinIgualTexto}</p>
                     </div>
                     <div className='text-left'>
                         <h2 className='mb-8 hidden md:block'>EQUIPO MULTIDISCIPLINARIO</h2>
                         <h2 className='mb-8 text-2xl md:hidden'>EQUIPO MULTIDISCIPLINARIO</h2>
-                        <p>Fara Arquitectura ofrece un desarrollo de experiencias hechas a la medida de cada cliente con la participación coordinada de su equipo interdisciplinario especializado. </p>
+                        <p>{EquipoMultidisciplinarioTexto}</p>
                     </div>
 
                 </div>
@@ -83,7 +94,7 @@ const HomePageTemplate = ({primaryImage, secondaryImage, galleryImage1, galleryI
             <section className='flex justify-center pb-16'>
                 <div className='text-start md:text-center w-full md:w-3/4'>
                     <strong>CONTÁCTANOS HOY</strong>
-                    <p className='mb-16'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum officiis at aspernatur fugiat aliquam, impedit veritatis deserunt laboriosam repellendus quibusdam deleniti sed dicta ex nam, voluptate enim tenetur quasi. Aperiam?</p>
+                    <p className='mb-16'>{contactanosHoyTexto}</p>
                     <ButtonSecondary text='CONTACTO' link='/contact'/>
                 </div>
 
