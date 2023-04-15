@@ -27,7 +27,7 @@ const HomePageTemplate = ({primaryImage,
                     <img src={secondaryImage} className='w-full h-80 sm:h-full object-cover z-10 mb-8 md:hidden rounded-xl'/>
                     <div className='flex flex-wrap xl:flex-nowrap'>
                         {/* <ButtonPrimary text='RESERVA UNA CONSULTA' to='#first-section'/> */}
-                        <ButtonSecondary link='/contact' text='RESERVA UNA CONSULTA'/>
+                        <ButtonPrimary link='/contact' text='RESERVA UNA CONSULTA'/>
                     </div>
                 </div>
             </section>
