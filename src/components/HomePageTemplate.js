@@ -13,6 +13,7 @@ const HomePageTemplate = ({primaryImage,
     experenciaSinIgualTexto,
     EquipoMultidisciplinarioTexto,
     contactanosHoyTexto,
+    aprenderMasLink
 }) => {
     return ( 
         <div className="flex flex-wrap px-2 md:px-16 xl:px-32">
@@ -26,7 +27,7 @@ const HomePageTemplate = ({primaryImage,
                     <img src={secondaryImage} className='w-full h-80 sm:h-full object-cover z-10 mb-8 md:hidden rounded-xl'/>
                     <div className='flex flex-wrap xl:flex-nowrap'>
                         {/* <ButtonPrimary text='RESERVA UNA CONSULTA' to='#first-section'/> */}
-                        <ButtonSecondary text='RESERVA UNA CONSULTA'/>
+                        <ButtonSecondary link='/contact' text='RESERVA UNA CONSULTA'/>
                     </div>
                 </div>
             </section>
@@ -47,7 +48,7 @@ const HomePageTemplate = ({primaryImage,
                             <p>{whoAreWeText}</p>
                         </div>
                         <div>
-                            <ButtonTertiary text='APRENDER MÁS' color='white'/>
+                            <ButtonTertiary link={aprenderMasLink} text='APRENDER MÁS' color='white'/>
                         </div>
                        
                     </div>

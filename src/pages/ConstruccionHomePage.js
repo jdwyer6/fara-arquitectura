@@ -22,6 +22,7 @@ const ConstruccionHomePage = () => {
                 experenciaSinIgualTexto='Con Farah Arquitectura, no hay retos ni contratiempos, sino oportunidades de diseño. Cualquier reto contextual es una gran oportunidad creativa para el desarrollo integral y potencial de proyecto, desde su desarrollo conceptual hasta su ejecución.'
                 EquipoMultidisciplinarioTexto='Fara Arquitectura ofrece un desarrollo de experiencias hechas a la medida de cada cliente con la participación coordinada de su equipo interdisciplinario especializado. '
                 contactanosHoyTexto='Soluciones arquitectónicas integrales.'
+                aprenderMasLink='/construccion-about'
              />
         </>
      );
