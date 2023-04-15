@@ -91,7 +91,7 @@ const HomePageTemplate = ({primaryImage,
             </section>
 
 
-            <section className='flex justify-center pb-16'>
+            <section className='flex justify-center pb-16 w-full'>
                 <div className='text-start md:text-center w-full md:w-3/4'>
                     <strong>CONTÁCTANOS HOY</strong>
                     <p className='mb-16'>{contactanosHoyTexto}</p>

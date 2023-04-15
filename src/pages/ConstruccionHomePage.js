@@ -17,11 +17,11 @@ const ConstruccionHomePage = () => {
                 galleryImage2={gallery2}
                 galleryImage3={gallery3}
                 galleryImage4={gallery4}
-                whoAreWeText='- 11 - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque maxime voluptas minima nihil. Mollitia ut cupiditate alias minima, perspiciatis obcaecati eius? Voluptatibus, velit odio sed animi a ex magnam. Ducimus?'
-                conocemosElProcesoText='- 12 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro omnis illo expedita! Perspiciatis, aut autem tenetur distinctio itaque voluptate ratione fuga aspernatur qui quidem animi blanditiis eum, quod, temporibus ullam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro omnis illo expedita!'
-                experenciaSinIgualTexto='- 13 - Con Farah Arquitectura, no hay retos ni contratiempos, sino oportunidades de diseño. Cualquier reto contextual es una gran oportunidad creativa para el desarrollo integral y potencial de proyecto, desde su desarrollo conceptual hasta su ejecución.'
-                EquipoMultidisciplinarioTexto='- 14 - Fara Arquitectura ofrece un desarrollo de experiencias hechas a la medida de cada cliente con la participación coordinada de su equipo interdisciplinario especializado. '
-                contactanosHoyTexto='- 15 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum officiis at aspernatur fugiat aliquam, impedit veritatis deserunt laboriosam repellendus quibusdam deleniti sed dicta ex nam, voluptate enim tenetur quasi. Aperiam?'
+                whoAreWeText={<><span>Farah Arquitectura y Construcción es un despacho mexicano dedicado al diseño arquitectónico y construcción con sede en la Ciudad de México. Con diez años de experiencia, el despacho cuenta con un portafolio de más de 50 proyectos construidos en diversas ciudades dentro del área metropolitana y sus </span><span>cercaní</span><span style={{margin:'-6px'}}>as.</span></>}
+                conocemosElProcesoText='FAC opera con un equipo interdisciplinario de profesionales expertos en el desarrollo integral de soluciones arquitectónicas, master planning y en la gestión y ejecución de proyectos de construcción estratégica a cualquier escala. De entre su extenso portafolio, la producción creativa del despacho abarca la vivienda residencial, hoteles, plazas comerciales, torres médicas y de oficinas, entre muchos otros proyectos de interiorismo y restauraciones espaciales. Para Farah Arquitectura y Construcción, '
+                experenciaSinIgualTexto='Con Farah Arquitectura, no hay retos ni contratiempos, sino oportunidades de diseño. Cualquier reto contextual es una gran oportunidad creativa para el desarrollo integral y potencial de proyecto, desde su desarrollo conceptual hasta su ejecución.'
+                EquipoMultidisciplinarioTexto='Fara Arquitectura ofrece un desarrollo de experiencias hechas a la medida de cada cliente con la participación coordinada de su equipo interdisciplinario especializado. '
+                contactanosHoyTexto='Soluciones arquitectónicas integrales.'
              />
         </>
      );

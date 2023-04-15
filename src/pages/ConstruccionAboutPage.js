@@ -12,11 +12,11 @@ const ConstruccionAboutPage = () => {
             icon1={<MdConstruction size={200}/>}
             icon2={<GiBulldozer size={160}/>}
             icon3={<TbBuildingSkyscraper size={200}/>} 
-            aboutTextMain='- 16 - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis voluptatem assumenda error harum! Iusto repudiandae unde expedita eius iure debitis temporibus vero perferendis? Et vel exercitationem nobis! Eligendi, modi cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, possimus tempore ad facere nihil modi facilis similique expedita voluptas illum odit exercitationem incidunt totam? Accusantium nesciunt veritatis excepturi libero quasi.'
-            servicesText='- 17 - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est sed, et corrupti alias reiciendis, fugit ex illum quaerat nostrum quibusdam quisquam omnis architecto facere? Error deleniti neque possimus necessitatibus. Facere?Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, natus veniam excepturi saepe ex vitae, nulla dicta sapiente cupiditate error dolorem iste provident, eaque libero nostrum quasi placeat suscipit quod!'
-            service1='- 18 - Lorem ipsum dolor sit ametø consectetur adipisicing elit. Deleniti molestiae tempora corrupti necessitatibus.'
-            service2='- 19 - Lorem ipsum dolor sit ametø consectetur adipisicing elit. Deleniti molestiae tempora corrupti necessitatibus.'
-            service3='- 20 - Lorem ipsum dolor sit ametø consectetur adipisicing elit. Deleniti molestiae tempora corrupti necessitatibus.'
+            aboutTextMain={<><span>'Cada proyecto es único y merece un análisis minucioso para integrar las necesidades del cliente, sus expectativas y su presupuesto. Farah Arquitectura y Construcción busca expandir el potencial de la idea inicial hasta llevarla a la solución de diseño ideal, siempre siguiendo un eje central: calidad y excelencia en el más mí</span><span style={{margin:'-6px'}}>nimo detalle. Para ello es fundamental crear una relación cercana y sólida entre el equipo creativo y el cliente, comunicando paso a paso estrategias y avances en el proyecto. De esta forma, el despacho ofrece su acompañamiento creativo y experiencia en el campo para proyectos de interiorismo y arquitectura de interiores, renovaciones espaciales, restauraciones inmuebles y proyectos residenciales y comerciales a cualquier escala.'</span></>}
+            servicesText='Farah Arquitectura y Construcción ofrece un desarrollo de experiencias hechas a la medida para cada cliente y futuros usuarios por medio de una amplia variedad de servicios en soluciones arquitectónicas, arquictura de interiores y remodelación espacial, restauración de inmuebles, construcción y master planning. Con la participación coordinada de su equipo interdisciplinario especializado, el despacho lleva a cabo tanto proyectos propios, como proyectos para particulares y empresas.'
+            title1='Construcción Integral'
+            title2={<><span>Gestorí</span><span style={{margin:'-6px'}}>a</span></>}
+            title3='Master Planning'
         />
         </>
      );

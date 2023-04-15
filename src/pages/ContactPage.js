@@ -12,7 +12,7 @@ const ContactPage = () => {
 
     return ( 
         <div className="md:h-screen px-2 md:px-16 xl:px-32 ">
-            <form action="https://formsubmit.co/9b9906a5003ad4c65cbd82615315fc4d" method="POST">
+            <form action="https://formsubmit.co/aa991a923f84236ebc940fe1d4c6e069" method="POST">
                 <div className='text-center'>
                     <h2>CONTÁCTANOS</h2>
                     <p className='font-small'><span className='text-red-600'>*</span> Campos Obligatorios</p>
@@ -47,7 +47,7 @@ const ContactPage = () => {
                     <textarea name="message" onChange={(e)=>setMessage(e.target.value)} className='h-40 bg-ivory rounded-lg focus:outline-sand' placeholder="Escribe tu mensaje..." style={{textIndent: '16px', lineHeight: '40px'}}></textarea>
                 </div>
                 <div className='w-full md:w-1/2 py-8'>
-                    <ButtonPrimary type="submit" text='ENVIAR'/>
+                    <button type='submit' className="bg-brown w-full px-8 text-xs md:text-sm text-white font-medium tracking-widest py-6 rounded-xl md:mx-8 hover:bg-gray-dark ease-out duration-300 my-1">ENVIAR</button>
                 </div>
                 
             </form>

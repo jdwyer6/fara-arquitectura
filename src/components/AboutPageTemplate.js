@@ -9,7 +9,10 @@ const AboutPageTemplate = ({mainImage,
     servicesText,
     service1,
     service2,
-    service3
+    service3,
+    title1,
+    title2,
+    title3
 }) => {
     return ( 
         <div className="flex flex-wrap px-2 md:px-16 xl:px-32">
@@ -30,9 +33,9 @@ const AboutPageTemplate = ({mainImage,
                     <p>{servicesText}</p>
                 </div>
                 <div className='flex flex-wrap justify-between'>
-                    <Card icon={icon1} title='Lorem Ipsum' bg='bg-olive' description={service1}/>
-                    <Card icon={icon2} title='Lorem Ipsum' bg='bg-sand' description={service2}/>
-                    <Card icon={icon3} title='Lorem Ipsum' bg='bg-ivory' description={service3}/>
+                    <Card icon={icon1} title={title1} bg='bg-olive' description={service1}/>
+                    <Card icon={icon2} title={title2} bg='bg-sand' description={service2}/>
+                    <Card icon={icon3} title={title3} bg='bg-ivory' description={service3}/>
 
 
                 </div>
