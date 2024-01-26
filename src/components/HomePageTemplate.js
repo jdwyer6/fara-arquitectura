@@ -22,7 +22,7 @@ const HomePageTemplate = ({primaryImage,
                     <img className='absolute'  src={primaryImage}/>
                 </div>
                 <div className='flex-1 text-center flex flex-col justify-start xl:justify-center'>
-                    <h1 className="md:text-brand-md leading-none text-xxl">FARAH</h1>
+                    <h1 className="md:text-brand-md leading-none text-xxl">MARFA</h1>
                     <h5 className="text-2xl mb-8">DISEÑO DE INTERIORES</h5>
                     <img src={secondaryImage} className='w-full h-80 sm:h-full object-cover z-10 mb-8 md:hidden rounded-xl'/>
                     <div className='flex flex-wrap xl:flex-nowrap'>
