@@ -50,7 +50,7 @@ const LandingPage = ({setSection}) => {
             </nav>
 
             <div className='absolute z-10 top-52 w-screen flex items-center flex-col'>
-                <h1 className="text-white text-8xl md:text-brand font-light text-center mb-0 md:mb-24">FARAH</h1>
+                <h1 className="text-white text-8xl md:text-brand font-light text-center mb-0 md:mb-24">MARFA</h1>
                 <div className='px-4 flex flex-wrap lg:flex-nowrap w-full lg:w-3/4 xl:w-3/5'>
                     <div className='w-full flex justify-center' onClick={()=>setSection(0)}>
                         <ButtonSecondary link='/interiores-home' text='DISEÑO DE INTERIORES'/>
