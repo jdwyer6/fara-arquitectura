@@ -5,9 +5,6 @@ import logo from '../assets/images/new/logo_no_text.png';
 import ButtonSecondary from '../components/ButtonSecondary';
 
 const LandingPage = ({setSection}) => {
-
-
-
     return ( 
         <div className='relative h-screen w-full overflow-hidden'> 
             <div className='relative hidden md:block h-full w-full'>

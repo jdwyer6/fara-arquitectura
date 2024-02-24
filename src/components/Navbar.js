@@ -10,7 +10,7 @@ const Navbar = ({section}) => {
     return ( 
         <>
             <nav className="bg-white border-gray-200 px-2 md:px-16 xl:px-32 py-2 md:py-8 rounded dark:bg-gray-900">
-                <div className="container flex items-start justify-between">
+                <div className="flex items-start justify-between">
                     <Link to={'/'} className="flex items-center p-2 md:p-0">
                         <img className='w-8' src={logo} height="auto"  alt="Logo" />
                     </Link>
