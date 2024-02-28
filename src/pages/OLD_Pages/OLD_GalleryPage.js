@@ -25,7 +25,7 @@
 //                         <h1 className='border-bottom border-top w-100 text-center'>Nuestro trabajo</h1>
 //                     </Col>
 //                     <Col md='12' className='d-none d-md-inline' style={{margin: '12px 0'}}>
-//                         <div style={{position: 'relative', height: '60vh', width: '100%'}}><iframe allow="clipboard-write" sandbox="allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox" allowFullScreen={false} style={{position: 'absolute', border: 'none', width:'100%', height: '100%', left: 0, right: 0, top: '50%', bottom: 0, transform: 'translateY(-50%)'}} src="https://e.issuu.com/embed.html?d=book_farah_2&hideIssuuLogo=true&u=faraharquitectura"></iframe></div>
+//                         <div style={{position: 'relative', height: '60vh', width: '100%'}}><iframe allow="clipboard-write" sandbox="allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox" allowFullScreen={false} style={{position: 'absolute', border: 'none', width:'100%', height: '100%', left: 0, right: 0, top: '50%', bottom: 0, transform: 'translateY(-50%)'}} src="https://e.issuu.com/embed.html?d=book_marfa_2&hideIssuuLogo=true&u=marfaarquitectura"></iframe></div>
 //                     </Col>
 
 //                     {GALLERYTHUMBNAILS.map((thumbnail, idx) => (

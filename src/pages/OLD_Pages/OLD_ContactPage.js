@@ -18,7 +18,7 @@
 //                 <Col className='px-md-5 mx-md-5 mx-0 px-0'>
 //                     <Row className="text-center py-5 contact-text-container">
 //                         <h3>Correo Electrónico</h3>
-//                         <p className="mt-2">proyectos@faraharquitectura.com</p>
+//                         <p className="mt-2">proyectos@marfaarquitectura.com</p>
 //                     </Row>
 //                     <Row className="text-center border-top py-5 contact-text-container">
 //                         <h3>Teléfono</h3>
@@ -26,7 +26,7 @@
 //                     </Row>
 //                     <Row className='text-center d-flex justify-content-center border-top py-5 contact-text-container'>
 //                         <h3>Redes Sociales</h3>
-//                         <a href='https://www.instagram.com/farah_arquitectura/' style={{width: '100px'}}><BsInstagram className="text-muted"/></a>
+//                         <a href='https://www.instagram.com/marfa_arquitectura/' style={{width: '100px'}}><BsInstagram className="text-muted"/></a>
 //                     </Row>
 //                 </Col>
 

@@ -13,7 +13,7 @@ const LandingPage = ({setSection}) => {
             </div>
 
             <div className='relative block md:hidden border h-full'>
-                <img src={landingImageMobile} className="absolute top-0 h-full object-cover"/>
+                <img src={landingImage} className="absolute top-0 h-full object-cover"/>
                 <div className='absolute h-full w-full bg-gradient-to-b from-gray-800 to-transparent'></div>
             </div>
 
