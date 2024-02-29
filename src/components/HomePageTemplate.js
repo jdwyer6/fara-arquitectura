@@ -13,7 +13,8 @@ const HomePageTemplate = ({primaryImage,
     experenciaSinIgualTexto,
     EquipoMultidisciplinarioTexto,
     contactanosHoyTexto,
-    aprenderMasLink
+    aprenderMasLink,
+    projectLink
 }) => {
     return ( 
         <div className="flex flex-wrap px-2 md:px-16 xl:px-32">
@@ -64,7 +65,7 @@ const HomePageTemplate = ({primaryImage,
                     <h1 className='text-2xl md:hidden mb-8'>CONOCEMOS EL PROCESO</h1>
                     <p className='mb-8 md:mb-0'>{conocemosElProcesoText}</p>
                     <div>
-                        <ButtonTertiary text='NUESTROS PROYECTOS'/>
+                        <ButtonTertiary link={projectLink} text='NUESTROS PROYECTOS'/>
                     </div>
                     
                 </div>
