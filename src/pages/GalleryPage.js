@@ -84,6 +84,12 @@ import page183 from '../assets/images/new/gallery_modal/183.png';
 import page184 from '../assets/images/new/gallery_modal/184.png';
 import page185 from '../assets/images/new/gallery_modal/185.png';
 import page186 from '../assets/images/new/gallery_modal/186.png';
+import page187 from '../assets/images/new/gallery_modal/187.png';
+import page188 from '../assets/images/new/gallery_modal/188.png';
+import page189 from '../assets/images/new/gallery_modal/189.png';
+import page190 from '../assets/images/new/gallery_modal/190.png';
+import page191 from '../assets/images/new/gallery_modal/191.png';
+import page192 from '../assets/images/new/gallery_modal/192.png';
 
 const GalleryPage = () => {
     return ( 
@@ -175,11 +181,14 @@ const GalleryPage = () => {
                 <img src={page184} />
                 <img src={page185} />
                 <img src={page186} />
-               
+                <img src={page187} />
+                <img src={page188} />
+                <img src={page189} />
+                <img src={page190} />
+                <img src={page191} />
+                <img src={page192} />
             </div>
-            
         </div>
-
      );
 }
  

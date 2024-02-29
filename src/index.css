@@ -44,3 +44,8 @@ p{
 .image-gallery img{
   margin-bottom: 32px;
 }
+
+.image-gallery {
+  display: flex;
+  flex-direction: column;
+}
